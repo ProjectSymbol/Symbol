@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'GLH') {
-    	message.reply('```This bot was created by ```@**Sever_al#6573**');
+    	message.reply('```This bot was created by ```**@Sever_al#6573**');
   	}
 });
 
