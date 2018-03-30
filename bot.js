@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 's"2093847"') {
-    	message.reply('```Hello```');
+    if (message.content === 'GLH') {
+    	message.reply('```This bot was created by @Sever_al#6573```');
   	}
 });
 
