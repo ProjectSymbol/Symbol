@@ -11,6 +11,14 @@ client.on('message', message => {
   	}
 });
 
+});
+
+client.on('message', message => {
+    if (message.content === '.reload') {
+    	message.channel.send('Reloading the bot, please do not touch any commands.');
+  	}
+});
+
 client.on('message', message => {
     if (message.content === '.credits') {
     	message.reply('Bot was made by Sever_al, for Grand Luxe Hotels Discord. My bot testers, were lovely, their names are, FalloutPhantom1, sad_babes, SnoopArcanum, and Akonguerrero.');
