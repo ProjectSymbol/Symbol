@@ -12,20 +12,8 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === '.help') {
-    	message.reply('We will make the commands soon..');
-  	}
-});
-
-client.on('message', message => {
     if (message.content === '.credits') {
-    	message.channel.send('Bot was made by Sever_al, for Grand Luxe Hotels Discord.');
-  	}
-});
-
-client.on('message', message => {
-    if (message.content === '.w1') {
-    	message.reply('Who do you want to give a warning too?.');
+    	message.reply('Bot was made by Sever_al, for Grand Luxe Hotels Discord.');
   	}
 });
 
