@@ -13,8 +13,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === '.help') {
-    	message.reply('
-hi');
+    	message.reply('We do not have a list of commands right now, sorry!');
   	}
 });
 
