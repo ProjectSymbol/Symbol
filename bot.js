@@ -18,6 +18,12 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
+    if (message.content === '.script add') {
+    	message.channel.send('What script would you like to add?');
+  	}
+});
+
+client.on('message', message => {
     if (message.content === '.credits') {
     	message.reply('Bot was made by Sever_al, for Grand Luxe Hotels Discord. My bot testers, were lovely, their names are, FalloutPhantom1, sad_babes, SnoopArcanum, and Akonguerrero.');
   	}
