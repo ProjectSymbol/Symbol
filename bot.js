@@ -11,8 +11,6 @@ client.on('message', message => {
   	}
 });
 
-});
-
 client.on('message', message => {
     if (message.content === '.reload') {
     	message.channel.send('Reloading the bot, please do not touch any commands.');
