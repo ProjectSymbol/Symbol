@@ -6,8 +6,14 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'GLH') {
-    	message.reply('```This bot was created by ```**@Sever_al#6573**');
+    if (message.content === '.glh') {
+    	message.channel.send('https://www.roblox.com/My/Groups.aspx?gid=3798936');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === '.help') {
+    	message.reply('BONG!');
   	}
 });
 
