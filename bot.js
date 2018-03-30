@@ -13,7 +13,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === '.help') {
-    	message.reply('needs help, @Discord Moderator.');
+    	message.reply('needs help, @Discord Moderator .');
   	}
 });
 
